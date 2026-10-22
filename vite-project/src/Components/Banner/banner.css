@@ -1,7 +1,7 @@
 .banner{
     margin-top: -10vh;
-    height: 80vh;
-    margin-bottom: -80px;
+    height: 100vh;
+    margin-bottom: -50px;
     color: white;
     object-fit: contain;
 }
@@ -25,8 +25,9 @@
 .banner__title {
     font-size: 3rem;
     font-weight: 800;
-    padding-bottom: 0.3rem;
-    margin-bottom: 1rem;
+    margin-left: 40px;
+    /* padding-bottom: 0.3rem;
+    margin-bottom: 1rem; */
 
 }
 .banner__buttons {

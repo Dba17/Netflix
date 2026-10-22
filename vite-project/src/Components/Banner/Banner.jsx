@@ -9,7 +9,7 @@ function Banner() {
     (async () => {
       try {
         const request = await axios.get(requests.fetchNetflixOriginals);
-        console.log(request);
+        
         setMovie(
           request.data.results[
             Math.floor(Math.random() * request.data.results.length)
@@ -35,9 +35,9 @@ function Banner() {
       }}
     >
       <div className="banner__contents">
-        <h1 className="banner__title">
+        <div className="banner__title">
           {movie?.title || movie?.name || movie?.original_name}
-        </h1>
+        </div>
         <div className="banner__buttons">
           <button className="banner__button play">Play</button>
           <button className="banner__button">My List</button>
